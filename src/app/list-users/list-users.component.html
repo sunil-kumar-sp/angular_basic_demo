@@ -1,0 +1,7 @@
+<p>list-users works!</p>
+
+<select  [(ngModel)] ="selected_user" (ngModelChange)="showUserInfo($event)">
+  <option  *ngFor="let user of users;" [value]="user.id" >
+    {{user.email}}
+  </option>
+</select>
