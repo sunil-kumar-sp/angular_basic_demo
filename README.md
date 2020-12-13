@@ -1,7 +1,7 @@
 ## to create new project
 ng new project_new
 
-## to install node_module if its not exists
+## to install node_module if its not exists  Ex: when you cloned the repository in diffrent computer
 npm i
 
 ## to create new component (ng generate component)
